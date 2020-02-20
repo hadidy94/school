@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800&display=swap&subset=arabic");
+body {
+  font-family: 'Tajawal', sans-serif;
+  padding: 0px;
+  overflow-x: hidden;
+  /* font-size: 16px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .searchArea {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .searchArea .search input {
+  background: #E7EBF9;
+  height: 30px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  padding: 5px;
+  min-width: 200px;
+  border: 1px solid #707070;
+}
+
+header .searchArea .search button {
+  height: 30px;
+  background: #313E98;
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .searchArea .social-icons li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background: #313E98;
+}
+
+header .searchArea .social-icons li .face {
+  background: #4250B5;
+}
+
+header .searchArea .social-icons li .twitter {
+  background: #2A7FD5;
+}
+
+header .searchArea .social-icons li .insta {
+  background: #BABABA;
+}
+
+header .searchArea .social-icons li .youtube {
+  background: red;
+}
+
+header .navbar-default {
+  background: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-collapse {
+  padding-left: 0;
+}
+
+header .navbar-default .navbar-nav > li > a {
+  font-weight: 500;
+  color: #333;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+  font-size: 15px;
+  padding: 10px 13px;
+}
+
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .active > a:focus,
+header .navbar-default .navbar-nav > .active > a:hover {
+  color: #313E98;
+  background: transparent;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+header .navbar-default .navbar-nav > .active > a::after,
+header .navbar-default .navbar-nav > .active > a:focus::after,
+header .navbar-default .navbar-nav > .active > a:hover::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  bottom: 8px;
+  left: 15px;
+  width: 29px;
+  background: #313E98;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+header .navbar-default .navbar-nav > li > a:focus,
+header .navbar-default .navbar-nav > li > a:hover {
+  color: #313E98;
+  background: transparent;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+header .navbar-default .navbar-nav > li > a:focus::after,
+header .navbar-default .navbar-nav > li > a:hover::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  bottom: 8px;
+  left: 15px;
+  width: 29px;
+  background: #313E98;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+/*# sourceMappingURL=style.css.map */

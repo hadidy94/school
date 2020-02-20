@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800&display=swap&subset=arabic');
+
+$primary-color: #FFA600;
+$second-color : #4A1909;
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    padding: 0px;
+    overflow-x: hidden;
+    /* font-size: 16px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+// top header
+header {
+    padding: 20px 0;
+    // .logo{
+    //     width: 70%;
+    // }
+
+    .searchArea {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .search {
+            input {
+                background: #E7EBF9;
+                height: 30px;
+                box-shadow: none;
+                border: none;
+                padding: 5px;
+                min-width: 200px;
+                border: 1px solid #707070;
+            }
+
+            button {
+                height: 30px;
+                background: #313E98;
+                color: #fff;
+                border: none;
+                box-shadow: none;
+            }
+
+        }
+
+
+
+        .social-icons {
+            li {
+                a {
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #fff;
+                    background: #313E98;
+
+                }
+
+                .face {
+                    background: #4250B5;
+                }
+
+                .twitter {
+                    background: #2A7FD5;
+                }
+
+                .insta {
+                    background: #BABABA;
+                }
+
+                .youtube {
+                    background: red;
+                }
+            }
+        }
+    }
+
+    .navbar-default {
+        background: transparent;
+        border: none;
+
+        .navbar-collapse {
+            padding-left: 0;
+        }
+
+        .navbar-nav>li>a {
+            font-weight: 500;
+            color: #333;
+            transition: 0.3s ease-in-out !important;
+            font-size: 15px;
+            padding: 10px 13px;
+        }
+
+
+        .navbar-nav>.active>a,
+        .navbar-nav>.active>a:focus,
+        .navbar-nav>.active>a:hover {
+            color: #313E98;
+            background: transparent;
+            transition: 0.3s ease-in-out !important;
+        }
+
+        .navbar-nav>.active>a::after,
+        .navbar-nav>.active>a:focus::after,
+        .navbar-nav>.active>a:hover::after {
+            position: absolute;
+            content: "";
+            height: 3px;
+            bottom: 8px;
+            left: 15px;
+            width: 29px;
+            background: #313E98;
+            transition: 0.3s ease-in-out !important;
+        }
+
+        .navbar-nav>li>a:focus,
+        .navbar-nav>li>a:hover {
+            color: #313E98;
+            background: transparent;
+            transition: 0.3s ease-in-out !important;
+        }
+
+        .navbar-nav>li>a:focus::after,
+        .navbar-nav>li>a:hover::after {
+            position: absolute;
+            content: "";
+            height: 3px;
+            bottom: 8px;
+            left: 15px;
+            width: 29px;
+            background: #313E98;
+            transition: 0.3s ease-in-out !important;
+        }
+    }
+
+}
